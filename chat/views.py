@@ -5,7 +5,7 @@ from django.http import HttpResponse, JsonResponse
 
 
 def home(request):
-    return render(request, 'home.html')
+    return render(request, 'home.html') 
 
 
 def room(request, room):
@@ -37,6 +37,7 @@ def send(request):
         return HttpResponse('Message Sent Successfully')
     else:
         return HttpResponse('Empty')
+    
 
 def getMessages(request, room):
     room_details = Room.objects.get(name=room)

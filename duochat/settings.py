@@ -82,10 +82,10 @@ DATABASES = {
     # }
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'duochat',
-        'USER': 'postgres',
-        'PASSWORD': '10293',
-        'HOST': 'localhost',
+        'NAME': 'duochatdb',
+        'USER': 'anthony',
+        'PASSWORD': 'zs9HWmec1qnRkDzqlTyfE2CZce3qWUMw',
+        'HOST': 'dpg-cmk2r76n7f5s73chct0g-a.oregon-postgres.render.com',
         'PORT': '5432'
     }
 }
